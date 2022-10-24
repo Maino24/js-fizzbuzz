@@ -1,5 +1,5 @@
 .box-js{
-    width: 200px;
+    width: 150px;
     height: 50px;
     background-color: aqua;
 }
@@ -9,4 +9,21 @@
     flex-wrap: wrap;
     justify-content: space-between;
     
+}
+
+
+.red{
+    background-color: red;
+}
+
+.blue{ 
+    background-color: blue;
+}
+
+.lightgreen{
+    background-color: lightgreen;
+}
+
+.yellow{
+    background-color: yellow;
 }

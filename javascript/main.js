@@ -9,19 +9,19 @@ for(let i = 1; i < 101; i++){
     /* scrivo le condizioni */
 
     if((i % 3 === 0) && (i % 5 === 0)){
-        divOne.innerText = `FizzBuzz`
+        divOne.innerText += `FizzBuzz`
         divOne.classList.add(`blue`)
         console.log(`FizzBuzz`)
     }else if(i % 3 === 0){
-        divOne.innerText = `Fizz`
+        divOne.innerText += `Fizz`
         divOne.classList.add(`red`)
         console.log(`Fizz`)
     }else if(i % 5 === 0){
-        divOne.innerText = `Buzz`
+        divOne.innerText += `Buzz`
         divOne.classList.add(`red`)
         console.log(`Buzz`)
     }else{
-        divOne.innerText = `${i}`
+        divOne.innerText += `${i}`
         divOne.classList.add(`red`)
         console.log(i)
     }
